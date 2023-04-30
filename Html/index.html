@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Css/style.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-5">
+        <div class="row ms-4 me-4">
+            <div class="col-xl-3 col-lg-4 col-12 border">
+                <div>
+                    <h3 class="mt-lg-5 mt-3 fs-5">
+                        price
+                    </h3>
+                </div>
+                <div class=" d-flex">
+                    <input type="password"
+                        class="w-25 pt-2 pb-2 ps-5 pe-5 border rounded-pill m-lg-3 mx-lg-1  input-search">
+                    <input type="password"
+                        class="w-25 pt-2 pb-2 ps-5 pe-5 border rounded-pill m-lg-3 mx-lg-1 ms-lg-4 ms-md-5 input-search">
+                </div>
+                <div>
+                    <h3 class="mt-lg-4 mt-3 fs-5">
+                        MOQ
+                    </h3>
+                </div>
+                <div>
+                    <input class="form-control w-100 pt-2 pb-2  rounded-pill border text-center search-bar input-search"
+                        type="search" placeholder="Less than" aria-label="Search">
+                </div>
+                <div>
+                    <h3 class="mt-lg-4 mt-3 fs-5">
+                        <div>
+                            <h3 class="mt-lg-4 mt-3 fs-5">
+                                Product Certification
+                            </h3>
+                        </div>
+                    </h3>
+                </div>
+                <div class="d-flex">
+                    <input
+                        class="form-control w-100 pt-2 pb-2  rounded-pill border text-center box search-bar input-search"
+                        type="search" placeholder="Product Certification..." aria-label="Search">
+                    <i class="fa fa-search text-secondary search-icon" aria-hidden="true"></i>
+                </div>
+
+                <div class="check-button mt-4">
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            ASTM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            CE
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Certificate of compliance
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Certificate of Confermity
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            EN
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            EPA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            FCC
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            FDA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            GB
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Green Clean Certificate
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Intertek
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            IOS 11439:2000
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            IOS 11439:2013
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            ROHS
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            SGS
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mt-lg-4 mt-3 fs-5">
+                        <div>
+                            <h3 class="mt-lg-4 mt-3 fs-5">
+                                Supplier Certification
+                            </h3>
+                        </div>
+                    </h3>
+                </div>
+                <div class="d-flex">
+                    <input
+                        class="form-control w-100 pt-2 pb-2  rounded-pill border text-center box search-bar input-search"
+                        type="search" placeholder="Supplier Certification..." aria-label="Search">
+                    <i class="fa fa-search text-secondary search-icon" aria-hidden="true"></i>
+
+                </div>
+                <div class="check-button mt-4">
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            DUNS
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            DRS
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            GMP
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            IOS 13485
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            IOS 9001
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            IOS 9001:2015
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="mt-lg-4 mt-3 fs-5">
+                        <div>
+                            <h3 class="mt-lg-4 mt-3 fs-5">
+                                Manufacturer Location
+                            </h3>
+                        </div>
+                    </h3>
+                </div>
+                <div class="d-flex">
+                    <input
+                        class="form-control w-100 pt-2 pb-2  rounded-pill border text-center box search-bar input-search"
+                        type="search" placeholder="Country/Region..." aria-label="Search">
+                    <i class="fa fa-search text-secondary search-icon" aria-hidden="true"></i>
+
+                </div>
+
+
+                <div class="check-button mt-4">
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Australia
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Canada
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Chaina
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Hong Kong S.A.R
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            India
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Koria, Repulic of
+                        </label>
+
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            United Kingdom
+                        </label>
+
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            United State
+                        </label>
+
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Vietnam
+                        </label>
+
+                    </div>
+
+                </div>
+                <div>
+                    <h3 class="mt-lg-4 mt-3 fs-5">
+                        <div>
+                            <h3 class="mt-lg-4 mt-3 fs-5">
+                                Stock Availability
+                            </h3>
+                        </div>
+                    </h3>
+                </div>
+                <div class="check-button mt-4">
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <img src="/Images/Flag/usa.cbfe8d83.svg" id="flag" alt="">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            In USA
+                        </label>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-xl-9 col-lg-6 col-md-6 col-12 mt-xl-4 mt-lg-3 mt-md-3 mt-3 mt-md-0 d-flex flex-wrap justify-content-evenly">
+                <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/egg (1).png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Rolhei 75% Ethanol Wet Wipe - 100</h5>
+                      <p class="card-text text-secondary">MOQ: 1,512 pieces</p>
+                      <p class="fw-bold"> $1.40/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16188995271096357559.jpg" class="card-img-top img-fluid" style="width: 80%; padding-left: 20%; padding-top: 10px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ARCTICA 3-Layer Washable Face </h5>
+                      <p class="card-text">MOQ: 1,512 pieces</p>
+                      <p class="fw-bold"> $11.40/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16066628121301820143.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rolhei ECO Biodegradable Wipe</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold"> $11.40/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16066651181992181153.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        ARCTICA 3-Layer Washable Face Ma</h5>
+                      <p class="card-text">MOQ: 500 pieces</p>
+                      <p class="fw-bold"> $11.40/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16067031431828326643.jpg" class="card-img-top img-fluid" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Daily Long Lasting Antibacterial Mist </h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.40/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16067070521180701606.jpg" class="card-img-top" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Beeswax Food Wrap Reusable Storagee</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1606791126532888161.jpg" class="card-img-top" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sustainable Organic And Eco Friendly </h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1606793463688587430.jpg" class="card-img-top" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Arctica Antibacterial Poncho</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16067943451725828453.jpg" class="card-img-top" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Hand Sanitizer</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16067031431828326643.jpg" class="card-img-top" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nitrile Gloves</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1606791126532888161.jpg" class="card-img-top" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Organic Fabric Reusable Storage Beeswax Food Wrap</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16067031431828326643.jpg" class="card-img-top" style="width: 80%; padding-left: 15%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nitrile Gloves</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1607050226350036635.png" class="card-img-top" style="width: 90%; padding-left: 10%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Reusable Beeswax Food Wrap</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards//1618198984384152277.jpg" class="card-img-top" style="width: 80%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Non-Toxic Healthy Beeswax Reusable</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16188992531189254654.jpg" class="card-img-top" style="width: 70%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Disposable Nitrile Glove</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16188995271096357559.jpg" class="card-img-top" style="width: 90%; padding-left: 10%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vinyl Gloves</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1619403760501756204.jpg" class="card-img-top" style="width: 80%; padding-left: 10%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Disposable Goggles</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1619422970550436904.jpg" class="card-img-top" style="width: 75%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Leisure Outdoor Sofa Furniture</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1619502988228516636.jpg" class="card-img-top" style="width: 80%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rolhei ECO Biodegradable Wipe</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16197288961092772393.jpg" class="card-img-top" style="width: 80%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Leisure Outdoor Sofa</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16200162821635544309.jpg" class="card-img-top" style="width: 80%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Outdoor Furniture Beach Chair Su</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16257460221368195464.jpg" class="card-img-top" style="width: 75%; padding-left: 10%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Leisure Outdoor Sofa Furniture</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1637398378379541107.jpg" class="card-img-top" style="width: 80%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rolhei ECO Biodegradable Wipe</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1637399316796627805.jpg" class="card-img-top" style="width: 80%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Disposable Goggles</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/1637564787306821730.jpg" class="card-img-top" style="width: 80%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rolhei ECO Biodegradable Wipe</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/egg (1).png" class="card-img-top" style="width: 100%; padding-left: 10%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vinyl Gloves</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                  <div class="card product-card" style="width: 15rem; height: 20rem;">
+                    <img src="/Images/Cards/16070481281322775491.png" class="card-img-top" style="width: 75%; padding-left: 20%; padding-top: 10%;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Leisure Outdoor Sofa Furniture</h5>
+                      <p class="card-text">MOQ: 96000 pieces</p>
+                      <p class="fw-bold mb-3"> $11.50/Piece</p>
+                    </div>
+                  </div>
+                <!-- <div>
+                    <div class="boxview-icon ms-xl-4 ms-lg-3 fs-4">
+                        <i class="fa fa-th" aria-hidden="true"></i>
+                        <i class="fa fa-th-list ms-2" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button
+                        class="btn rounded-pill dropdown-toggle dropdown-btn border border-1 p-lg-2  ps-lg-5 pe-lg-5 ps-md-5 pe-md-5 ms-md-0 ps-sm-3 pe-sm-3"
+                        type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Relevance
+                    </button>
+                    <ul class="dropdown-menu rounded mt-3" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Relevance</a></li>
+                        <li><a class="dropdown-item" href="#">Latest</a></li>
+                        <li><a class="dropdown-item" href="#">Price Low to High</a></li>
+                        <li><a class="dropdown-item" href="#">Price High to Low</a></li>
+                        <li><a class="dropdown-item" href="#">MOQ Low to High</a></li>
+                        <li><a class="dropdown-item" href="#">Ratings High to Low</a></li>
+                    </ul>
+
+                </div>
+                <div class="row"> -->
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- <div class="d-flex">
+            <div class="top">
+              <img src="/Images/chevronLeft.c50c4a36.svg" class="border rounded-circle top-img p-2 ms-4 mt-1" alt="">
+            </div>
+            <div>
+              <input
+                  class="form-control w-50 ms-3  rounded-pill border text-center box search-bar input-search"
+                  type="search" placeholder="0" aria-label="Search">
+
+                  
+          </div>
+          <div class="text-top w-100">
+
+              <small>of 22</small>
+          </div>
+          <div class="top">
+              <img src="/Images/chevronRight.b3ce29d8.svg" class="border rounded-circle top-img p-2 ms-3 mt-1" alt="">
+            </div>
+          
+        </div> -->
